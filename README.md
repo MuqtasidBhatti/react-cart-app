@@ -107,7 +107,7 @@ GitHub:
 https://github.com/MuqtasidBhatti
 
 LinkedIn:  
-https://linkedin.com/in/your-link
+https://www.linkedin.com/in/muqtasid-bhatti-230525384/
 
 ---
 
