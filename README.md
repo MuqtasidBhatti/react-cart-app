@@ -1,16 +1,114 @@
-# React + Vite
+# React Cart App 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-Build-purple)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-Framework-cyan)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-Currently, two official plugins are available:
+A simple shopping cart application built with React and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Users can browse products, add items to a cart, update quantities, remove products, and view the total price in real time.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+https://react-cart-app-ruddy.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshot
+
+![App Screenshot](public/screenshot.png)
+
+---
+
+## ✨ Features
+
+- Add products to cart
+- Increase or decrease product quantity
+- Remove items from cart
+- Automatic total price calculation
+- Clean responsive UI
+- Smooth hover animations
+- Modern design using Tailwind CSS
+
+---
+
+## 🛠 Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript (ES6)
+
+---
+
+## 📂 Project Structure
+
+```
+src
+├── components
+│   ├── Cart.jsx
+│   └── Products.jsx
+│
+├── App.jsx
+├── main.jsx
+├── App.css
+└── index.css
+
+public
+└── screenshot.png
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository
+
+```bash
+git clone https://github.com/MuqtasidBhatti/react-cart-app.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open in browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📚 What I Practiced
+
+- React state management
+- Array methods (`map`, `filter`, `reduce`)
+- Component based architecture
+- Clean UI design with Tailwind
+- Cart logic implementation
+
+---
+
+## 👨‍💻 Author
+
+Muqtasid Bhatti
+
+GitHub:  
+https://github.com/MuqtasidBhatti
+
+LinkedIn:  
+https://linkedin.com/in/your-link
+
+---
+
+⭐ If you like this project, feel free to **star the repository**.
